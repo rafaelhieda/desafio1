@@ -15,9 +15,9 @@
 		E34628091A9BB8640079AE8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34628071A9BB8640079AE8E /* LaunchScreen.xib */; };
 		E34628151A9BB8640079AE8E /* Desafio1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E34628141A9BB8640079AE8E /* Desafio1Tests.m */; };
 		E34628201A9BBA9B0079AE8E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = E346281F1A9BBA9B0079AE8E /* Question.m */; };
-		E3FE56401A9BCBC100811F31 /* mack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FE563E1A9BCBC100811F31 /* mack.jpg */; };
-		E3FE56411A9BCBC100811F31 /* 2015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FE563F1A9BCBC100811F31 /* 2015.jpg */; };
-		E3FE56431A9BCC4600811F31 /* sp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FE56421A9BCC4600811F31 /* sp.jpg */; };
+		E353AF411A9BDF28005683A8 /* 2015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E353AF3E1A9BDF28005683A8 /* 2015.jpg */; };
+		E353AF421A9BDF28005683A8 /* mack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E353AF3F1A9BDF28005683A8 /* mack.jpg */; };
+		E353AF431A9BDF28005683A8 /* sp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E353AF401A9BDF28005683A8 /* sp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +46,9 @@
 		E34628141A9BB8640079AE8E /* Desafio1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desafio1Tests.m; sourceTree = "<group>"; };
 		E346281E1A9BBA9B0079AE8E /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		E346281F1A9BBA9B0079AE8E /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		E3FE563E1A9BCBC100811F31 /* mack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mack.jpg; path = ../../../../../../Downloads/mack.jpg; sourceTree = "<group>"; };
-		E3FE563F1A9BCBC100811F31 /* 2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2015.jpg; path = ../../../../../../Downloads/2015.jpg; sourceTree = "<group>"; };
-		E3FE56421A9BCC4600811F31 /* sp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sp.jpg; path = ../../../../../../Downloads/sp.jpg; sourceTree = "<group>"; };
+		E353AF3E1A9BDF28005683A8 /* 2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2015.jpg; path = ../../../../../../../Downloads/2015.jpg; sourceTree = "<group>"; };
+		E353AF3F1A9BDF28005683A8 /* mack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mack.jpg; path = ../../../../../../../Downloads/mack.jpg; sourceTree = "<group>"; };
+		E353AF401A9BDF28005683A8 /* sp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sp.jpg; path = ../../../../../../../Downloads/sp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 				E34628001A9BB8640079AE8E /* ViewController.m */,
 				E34628021A9BB8640079AE8E /* Main.storyboard */,
 				E34628051A9BB8640079AE8E /* Images.xcassets */,
-				E3FE56421A9BCC4600811F31 /* sp.jpg */,
-				E3FE563E1A9BCBC100811F31 /* mack.jpg */,
-				E3FE563F1A9BCBC100811F31 /* 2015.jpg */,
+				E353AF3E1A9BDF28005683A8 /* 2015.jpg */,
+				E353AF3F1A9BDF28005683A8 /* mack.jpg */,
+				E353AF401A9BDF28005683A8 /* sp.jpg */,
 				E34628071A9BB8640079AE8E /* LaunchScreen.xib */,
 				E34627F81A9BB8640079AE8E /* Supporting Files */,
 			);
@@ -215,11 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34628041A9BB8640079AE8E /* Main.storyboard in Resources */,
-				E3FE56431A9BCC4600811F31 /* sp.jpg in Resources */,
 				E34628091A9BB8640079AE8E /* LaunchScreen.xib in Resources */,
-				E3FE56411A9BCBC100811F31 /* 2015.jpg in Resources */,
+				E353AF421A9BDF28005683A8 /* mack.jpg in Resources */,
+				E353AF411A9BDF28005683A8 /* 2015.jpg in Resources */,
+				E353AF431A9BDF28005683A8 /* sp.jpg in Resources */,
 				E34628061A9BB8640079AE8E /* Images.xcassets in Resources */,
-				E3FE56401A9BCBC100811F31 /* mack.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
