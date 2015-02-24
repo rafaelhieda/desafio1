@@ -23,7 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelResposta;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewResposta;
 
-- (void) initQuestions
+- (void) initQuestions;
 - (IBAction)buttonPergunta:(id)sender;
 - (IBAction)buttonResposta:(id)sender;
 

@@ -25,7 +25,8 @@
 
 - (IBAction)buttonPergunta:(id)sender {
     [labelPergunta setText:[arrayQuestoes[counter] pergunta]];
-    flag = true; // flag para garantir que o contador não saia e fique em descompasso com a resposta, quando apertar a buttonResposta
+    flag = true;
+    [labelResposta setText: @"???"];// flag para garantir que o contador não saia e fique em descompasso com a resposta, quando apertar a buttonResposta
 }
 
 - (IBAction)buttonResposta:(id)sender {
